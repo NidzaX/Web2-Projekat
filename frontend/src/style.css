@@ -1,0 +1,49 @@
+.disable-link {
+    pointer-events: none;
+  }
+  .centered-table td {
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  /* Adjusting the column width */
+  .centered-table th {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  .centered-table2 td {
+    text-align: center;
+  }
+  
+  /* Adjusting the column width */
+  .centered-table2 th {
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  .hoverLink{
+    border-radius: 5px;
+  }
+  .hoverLink:hover{
+    background-color: #28a745; /* Custom hover color */
+    border-color: #28a745; /* Match the background color */
+    color: #fff
+  }
+  .active{
+    background-color: #28a745;
+    color: #fff
+
+  }
+
+  .sticky-cart-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
